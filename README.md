@@ -57,6 +57,10 @@ console.info(parsedDate.toString()); // => "Fri May 29 1992 23:05:00 GMT+0200 (C
 
 Update the content of the `.date-output` `div` with the result of `parsedDateInputValue`.
 
+__Note:__ some of you might stumble upon the `Date.parse()` method.
+For the sake of the exercise (which is about converstion of strings
+and such), don't use it.
+
 <details>
 <summary>Usage</summary>
 
@@ -77,4 +81,5 @@ the user what the format of what the user types in.
 If the value is invalid, the content of the `.output` should be an
 error message mentioning that the format should be "DD-MM-YYYY HH:mm".
 
-Commit your files with the message `add input validation` and push to `master`.
+Commit your files with the message `add input validation` and push to
+`master`.
