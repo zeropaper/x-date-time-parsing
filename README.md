@@ -52,7 +52,7 @@ Create a function called `parseDateInputValue` which takes 1 argument
 
 ````js
 var parsedDate = parseDateInputValue('29-04-1992 23:05');
-console.info(parsedDate.toString()); // => "Fri May 29 1992 23:05:00 GMT+0200 (CEST)"
+console.info(parsedDate.toString()); // => "Wed Apr 29 1992 23:05:00 GMT+0200 (CEST)"
 ````
 
 Update the content of the `.date-output` `div` with the result of `parsedDateInputValue`.
